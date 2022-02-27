@@ -84,8 +84,7 @@ but the comment says, its in the root dir, so...
 ```
     --data-raw 'template=/backup.zip'
 ```
-finally the third idea worked:
-but the comment says, its in the root dir, so...
+finally the third idea worked:  
 ```
     --data-raw 'template=../backup.zip'
 ```
