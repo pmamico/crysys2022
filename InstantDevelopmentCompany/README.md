@@ -1,7 +1,7 @@
 # Instant Development Company 
 
 ## Original task
-<img src="Images/00_task.png" alt="drawing" width="300"/>
+<img src="images/00_task.png" alt="drawing" width="300"/>
 
 
 ## First thought
@@ -9,13 +9,13 @@ Since the task is in the web category, my focus is on the source code and the pa
 
 ## 1. "Hidden" page
 Accordingly, the first thing I did was to observe the source code.
-<img src="Images/idc_001.png" alt="drawing" width="800"/>
+<img src="images/idc_001.png" alt="drawing" width="800"/>
 
 There is a hidden page at ```/debug```, let's have a look
 
 ## 2. Debug page options
 
-<img src="Images/debug.png" alt="drawing" width="800"/>
+<img src="images/debug.png" alt="drawing" width="800"/>
 
 Here are many possibilities!  
 The ping may be able to run other commands on the host computer,  
@@ -25,27 +25,27 @@ and there is a messaging form with text input, most likely to be a POST request,
 ### a) Ping
 I tried to ping google.com, the url of itself and localhost.
 
-<img src="Images/idc_002.png" alt="drawing" width="800"/>
+<img src="images/idc_002.png" alt="drawing" width="800"/>
 
 
-<img src="Images/idc_003_pign_localhost.png" alt="drawing" width="800"/>
+<img src="images/idc_003_pign_localhost.png" alt="drawing" width="800"/>
 
 There are no obvious tricks here (that I know), so lets move on, maybe later...
 
 ### b) Download the templates
 
-<img src="Images/idc_004_downloads.png" alt="drawing" width="800"/>
+<img src="images/idc_004_downloads.png" alt="drawing" width="800"/>
 
 I downloaded all the templates from here, and checked them.  
 
 The base template seemed like this:
 
-<img src="Images/idc_005.png" alt="drawing" width="800"/>
+<img src="images/idc_005.png" alt="drawing" width="800"/>
 
 Searched for this kind of templating and it could be Django, this is some information!
 Also checked basic tricks with Django, but I did not found much.
 But I examined all the sources of templates, and in ```debug.html``` I have found a comment:  
-<img src="Images/idc_006_debug_source.png" alt="drawing" width="800"/>
+<img src="images/idc_006_debug_source.png" alt="drawing" width="800"/>
 
 `HA!` (in voice  of Al Pacino in "Scent of a Woman")  
 So there is a backup.zip somewhere, just needs to find and crack it.  
@@ -53,8 +53,8 @@ So there is a backup.zip somewhere, just needs to find and crack it.
 ##  3. Downloading the backup.zip
 There is the download template function, maybe it can help to download another files.
 I just copied the downloads HTTP Request as a curl call:
-<img src="Images/idc_007_copy_curL_1.png" alt="drawing" width="800"/>
-<img src="Images/idc_007_copy_curL_2.png" alt="drawing" width="800"/>
+<img src="images/idc_007_copy_curL_1.png" alt="drawing" width="800"/>
+<img src="images/idc_007_copy_curL_2.png" alt="drawing" width="800"/>
 
 The request seems like this:
 
