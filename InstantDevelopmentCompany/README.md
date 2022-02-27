@@ -38,7 +38,7 @@ There are no obvious tricks here (that I know), so lets move on, maybe later...
 
 I downloaded all the templates from here, and checked them.  
 
-The base template seemed like this:
+The base template looked like this:
 
 <img src="images/idc_005.png" alt="drawing" width="800"/>
 
