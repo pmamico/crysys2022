@@ -3,4 +3,4 @@
 
 ## Web
 
-[Instant Web Development](InstantWebDevelopment)
+[Instant Web Development](InstantDevelopmentCompany)
