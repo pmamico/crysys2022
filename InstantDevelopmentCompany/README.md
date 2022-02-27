@@ -52,7 +52,7 @@ So there is a backup.zip somewhere, just needs to find and crack it.
 
 ##  3. Downloading the backup.zip
 There is the download template function, maybe it can help to download another files.
-I just copied the downloads HTTP Request as a curl call:
+I just copied the downloads HTTP Request as a curl call:  
 <img src="images/idc_007_copy_curl_1.png" alt="drawing" width="800"/>
 <img src="images/idc_007_copy_curl_2.png" alt="drawing" width="800"/>
 
