@@ -113,7 +113,7 @@ USAGE: fcrackzip
           file...                    the zipfiles to crack
 
 ```
-There is a directory mode, in the worst case scenario I can generate the ```10!``` passwords with some script and feed it to fcrackzip.  
+There is a dictionary mode, in the worst case scenario I can generate the ```10!``` passwords with some script and feed it to fcrackzip.  
 But luckily ```fcrackzip``` has great bruteforcing options, the final command I used:
 
 ```
